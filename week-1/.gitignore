@@ -1,0 +1,69 @@
+# ==========================================
+# Ethical Hacking Lab - Git Ignore
+# ==========================================
+
+# VirtualBox virtual disks
+*.vdi
+*.vmdk
+*.vhd
+*.vhdx
+*.ova
+*.ovf
+
+# VirtualBox temporary files
+*.vbox-prev
+*.sav
+*.tmp
+
+# VirtualBox snapshots
+Snapshots/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Credentials and secrets
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+credentials
+credentials.*
+secrets/
+secret/
+
+# Password databases
+*.kdbx
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+
+# Temporary files
+*.swp
+*.swo
+*~
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Node
+node_modules/
+npm-debug.log*
+
+# Lab downloads
+downloads/*
+!downloads/.gitkeep
